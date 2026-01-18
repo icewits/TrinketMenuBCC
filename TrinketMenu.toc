@@ -1,8 +1,9 @@
 ## Interface: 110105, 40402, 11507
-## Title: TrinketMenu 11.1.8
-## Version: 11.1.8
-## Author: Gello, Resike
-## Notes: Addon to manage trinkets.
+## Title: TrinketMenu 11.1.9
+## Version: 11.1.9
+## Author: Gello, Resike, Icewitts
+## Notes: A lightweight addon that simplifies trinket management with an easy-to-use interface for quickly swapping and auto-rotating your trinkets.
+## IconTexture: Interface\AddOns\TrinketMenu\Textures\TrinketMenu-Gear
 ## SavedVariables: TrinketMenuOptions
 ## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
 

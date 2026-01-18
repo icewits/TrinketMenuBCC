@@ -1,4 +1,4 @@
-﻿--[[ TrinketMenuQueue : auto queue system ]]
+--[[ TrinketMenuQueue : auto queue system ]]
 
 local _G, type, string, tonumber, table, pairs, select = _G, type, string, tonumber, table, pairs, select
 

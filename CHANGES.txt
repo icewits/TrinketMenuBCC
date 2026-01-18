@@ -1,0 +1,29 @@
+11.1.9 - January 18, 2026
+Author: Icewitts <Spineshatter EU>
+- Fixed C_Item.IsEquippableItem() error in BCC Anniversary 2.5.5
+- Added PreClick handlers to both trinket buttons to switch between macro and item type
+- This prevents the error while preserving all functionality including keybinds and modifier keys
+- Maintained compatibility with all WoW versions (Retail/Classic/Anniversary)
+
+lightweight tag 4003150c33be05c097b1e3397ffe7a965adace88 11.1.8
+Author:	Resike <resike@gmail.com>
+Date:	Sun Apr 27 15:17:46 2025 +0200
+
+commit 4003150c33be05c097b1e3397ffe7a965adace88
+Author: Resike <resike@gmail.com>
+Date:   Sun Apr 27 15:17:46 2025 +0200
+
+    11.1.8
+
+commit 70c5770156d75d0a5c6c2935a87231335fb60c9f
+Author: Márton Bertók <marton.bertok@me.com>
+Date:   Sun Apr 27 13:26:41 2025 +0200
+
+    Don't require mouseover for showing the menu if keepOpen is on and fix for menu frameStrata
+
+commit 70c5770156d75d0a5c6c2935a87231335fb60c9f
+Author: Márton Bertók <marton.bertok@me.com>
+Date:   Sun Apr 27 13:26:41 2025 +0200
+
+    Don't require mouseover for showing the menu if keepOpen is on and fix for menu frameStrata
+

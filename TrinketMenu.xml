@@ -177,6 +177,15 @@
 							self.icon:SetAllPoints()
 						end
 					</OnLoad>
+					<PreClick>
+						if button == "LeftButton" and not IsModifierKeyDown() then
+							self:SetAttribute("type", "macro")
+							self:SetAttribute("macrotext", "/use 13")
+						else
+							self:SetAttribute("type", "item")
+							self:SetAttribute("slot", 13)
+						end
+					</PreClick>
 				</Scripts>
 			</CheckButton>
 			<Frame parent = "TrinketMenu_Trinket0" inherits = "TrinketMenuTimeTemplate"/>
@@ -205,6 +214,15 @@
 							self.icon:SetAllPoints()
 						end
 					</OnLoad>
+					<PreClick>
+						if button == "LeftButton" and not IsModifierKeyDown() then
+							self:SetAttribute("type", "macro")
+							self:SetAttribute("macrotext", "/use 14")
+						else
+							self:SetAttribute("type", "item")
+							self:SetAttribute("slot", 14)
+						end
+					</PreClick>
 				</Scripts>
 			</CheckButton>
 			<Frame parent = "TrinketMenu_Trinket1" inherits = "TrinketMenuTimeTemplate"/>
